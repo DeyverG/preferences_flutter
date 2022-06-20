@@ -1,16 +1,9 @@
 # preferences_app
 
-A new Flutter project.
+Proyecto Desarrollado el Flutter en el cual se revisa el tema de las preferencias de usuario.
+donde se guarda informacion como, nombre, genero y el tipo de tema (Dark o Light)
+para cambiar el Theme en tiempo real se usa Providers para notificar el cambio.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Paquetes Utilizados
+- shared_preferences (para guardar las preferencias del usuario)
+- provider (para notificar los cambios en cuestion del theme)
